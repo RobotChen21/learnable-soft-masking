@@ -1,0 +1,6 @@
+{
+  "esconv": {"dataset": "esconv-preprocessed", "total_epochs": 8, "total_steps": 3000, "eval_steps": 200, "save_steps": 200},
+  "annomi": {"dataset": "annomi-preprocessed", "total_epochs": 10, "total_steps": 1200, "eval_steps": 150, "save_steps": 150},
+  "shared": {"batch_size": 16, "erc_temperature": 0.5, "exclude_others": 0, "hg_dim": 512, "lr": 0.000004, "prior_strength_init": 1.0, "seed": 114514, "warmup": 500, "weight_decay": 0.001},
+  "variants": {"hard": "original_hard", "soft": "learnable_soft"}
+}
